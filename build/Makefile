@@ -126,7 +126,7 @@ fst_muduo: cmake_check_build_system
 
 # fast build rule for target.
 fst_muduo/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/fst_muduo.dir/build.make CMakeFiles/fst_muduo.dir/build
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/fst_muduo.dir/build.make src/CMakeFiles/fst_muduo.dir/build
 .PHONY : fst_muduo/fast
 
 #=============================================================================
@@ -142,53 +142,18 @@ Timestamp_test/fast:
 	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/Timestamp_test.dir/build.make test/CMakeFiles/Timestamp_test.dir/build
 .PHONY : Timestamp_test/fast
 
-src/Logger.o: src/Logger.cc.o
-.PHONY : src/Logger.o
+#=============================================================================
+# Target rules for targets named InetAddress_test
 
-# target to build an object file
-src/Logger.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/fst_muduo.dir/build.make CMakeFiles/fst_muduo.dir/src/Logger.cc.o
-.PHONY : src/Logger.cc.o
+# Build rule for target.
+InetAddress_test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 InetAddress_test
+.PHONY : InetAddress_test
 
-src/Logger.i: src/Logger.cc.i
-.PHONY : src/Logger.i
-
-# target to preprocess a source file
-src/Logger.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/fst_muduo.dir/build.make CMakeFiles/fst_muduo.dir/src/Logger.cc.i
-.PHONY : src/Logger.cc.i
-
-src/Logger.s: src/Logger.cc.s
-.PHONY : src/Logger.s
-
-# target to generate assembly for a file
-src/Logger.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/fst_muduo.dir/build.make CMakeFiles/fst_muduo.dir/src/Logger.cc.s
-.PHONY : src/Logger.cc.s
-
-src/Timestamp.o: src/Timestamp.cc.o
-.PHONY : src/Timestamp.o
-
-# target to build an object file
-src/Timestamp.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/fst_muduo.dir/build.make CMakeFiles/fst_muduo.dir/src/Timestamp.cc.o
-.PHONY : src/Timestamp.cc.o
-
-src/Timestamp.i: src/Timestamp.cc.i
-.PHONY : src/Timestamp.i
-
-# target to preprocess a source file
-src/Timestamp.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/fst_muduo.dir/build.make CMakeFiles/fst_muduo.dir/src/Timestamp.cc.i
-.PHONY : src/Timestamp.cc.i
-
-src/Timestamp.s: src/Timestamp.cc.s
-.PHONY : src/Timestamp.s
-
-# target to generate assembly for a file
-src/Timestamp.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/fst_muduo.dir/build.make CMakeFiles/fst_muduo.dir/src/Timestamp.cc.s
-.PHONY : src/Timestamp.cc.s
+# fast build rule for target.
+InetAddress_test/fast:
+	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/InetAddress_test.dir/build.make test/CMakeFiles/InetAddress_test.dir/build
+.PHONY : InetAddress_test/fast
 
 # Help Target
 help:
@@ -198,14 +163,9 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... InetAddress_test"
 	@echo "... Timestamp_test"
 	@echo "... fst_muduo"
-	@echo "... src/Logger.o"
-	@echo "... src/Logger.i"
-	@echo "... src/Logger.s"
-	@echo "... src/Timestamp.o"
-	@echo "... src/Timestamp.i"
-	@echo "... src/Timestamp.s"
 .PHONY : help
 
 

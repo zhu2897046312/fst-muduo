@@ -17,11 +17,7 @@
 						"string" : "3.0"
 					},
 					"projectIndex" : 0,
-					"source" : ".",
-					"targetIndexes" : 
-					[
-						1
-					]
+					"source" : "."
 				},
 				{
 					"build" : "src",
@@ -32,7 +28,11 @@
 					},
 					"parentIndex" : 0,
 					"projectIndex" : 0,
-					"source" : "src"
+					"source" : "src",
+					"targetIndexes" : 
+					[
+						2
+					]
 				},
 				{
 					"build" : "test",
@@ -46,7 +46,8 @@
 					"source" : "test",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
@@ -64,7 +65,8 @@
 					"targetIndexes" : 
 					[
 						0,
-						1
+						1,
+						2
 					]
 				}
 			],
@@ -72,15 +74,22 @@
 			[
 				{
 					"directoryIndex" : 2,
+					"id" : "InetAddress_test::@36f028580bb02cc8272a",
+					"jsonFile" : "target-InetAddress_test-DEBUG-4ab9ea1d3b6ca2188133.json",
+					"name" : "InetAddress_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
 					"id" : "Timestamp_test::@36f028580bb02cc8272a",
-					"jsonFile" : "target-Timestamp_test-DEBUG-8f22480626220161793b.json",
+					"jsonFile" : "target-Timestamp_test-DEBUG-72011039b3bc3fe07735.json",
 					"name" : "Timestamp_test",
 					"projectIndex" : 0
 				},
 				{
-					"directoryIndex" : 0,
-					"id" : "fst_muduo::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-fst_muduo-DEBUG-bebcb2897dd5ea541850.json",
+					"directoryIndex" : 1,
+					"id" : "fst_muduo::@145eef247bfb46b6828c",
+					"jsonFile" : "target-fst_muduo-DEBUG-fb03f91b43099b455b4b.json",
 					"name" : "fst_muduo",
 					"projectIndex" : 0
 				}

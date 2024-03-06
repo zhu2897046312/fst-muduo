@@ -92,7 +92,7 @@ Timestamp_test_EXTERNAL_OBJECTS =
 
 ../bin/Timestamp_test: test/CMakeFiles/Timestamp_test.dir/Timestamp_test.cc.o
 ../bin/Timestamp_test: test/CMakeFiles/Timestamp_test.dir/build.make
-../bin/Timestamp_test: libfst_muduo.so
+../bin/Timestamp_test: ../lib/libfst_muduo.so
 ../bin/Timestamp_test: test/CMakeFiles/Timestamp_test.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/zhuyi/桌面/WorkSpace/fst-muduo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../bin/Timestamp_test"
 	cd /home/zhuyi/桌面/WorkSpace/fst-muduo/build/test && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Timestamp_test.dir/link.txt --verbose=$(VERBOSE)

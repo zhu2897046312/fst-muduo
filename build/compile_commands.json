@@ -1,17 +1,32 @@
 [
 {
-  "directory": "/home/zhuyi/桌面/WorkSpace/fst-muduo/build",
-  "command": "clang++ -Dfst_muduo_EXPORTS -I/home/zhuyi/桌面/WorkSpace/fst-muduo/src/include -g -fPIC -o CMakeFiles/fst_muduo.dir/src/Logger.cc.o -c /home/zhuyi/桌面/WorkSpace/fst-muduo/src/Logger.cc",
+  "directory": "/home/zhuyi/桌面/WorkSpace/fst-muduo/build/src",
+  "command": "clang++ -Dfst_muduo_EXPORTS -I/home/zhuyi/桌面/WorkSpace/fst-muduo/src/include -g -fPIC -o CMakeFiles/fst_muduo.dir/Channel.cc.o -c /home/zhuyi/桌面/WorkSpace/fst-muduo/src/Channel.cc",
+  "file": "/home/zhuyi/桌面/WorkSpace/fst-muduo/src/Channel.cc"
+},
+{
+  "directory": "/home/zhuyi/桌面/WorkSpace/fst-muduo/build/src",
+  "command": "clang++ -Dfst_muduo_EXPORTS -I/home/zhuyi/桌面/WorkSpace/fst-muduo/src/include -g -fPIC -o CMakeFiles/fst_muduo.dir/InetAddress.cc.o -c /home/zhuyi/桌面/WorkSpace/fst-muduo/src/InetAddress.cc",
+  "file": "/home/zhuyi/桌面/WorkSpace/fst-muduo/src/InetAddress.cc"
+},
+{
+  "directory": "/home/zhuyi/桌面/WorkSpace/fst-muduo/build/src",
+  "command": "clang++ -Dfst_muduo_EXPORTS -I/home/zhuyi/桌面/WorkSpace/fst-muduo/src/include -g -fPIC -o CMakeFiles/fst_muduo.dir/Logger.cc.o -c /home/zhuyi/桌面/WorkSpace/fst-muduo/src/Logger.cc",
   "file": "/home/zhuyi/桌面/WorkSpace/fst-muduo/src/Logger.cc"
 },
 {
-  "directory": "/home/zhuyi/桌面/WorkSpace/fst-muduo/build",
-  "command": "clang++ -Dfst_muduo_EXPORTS -I/home/zhuyi/桌面/WorkSpace/fst-muduo/src/include -g -fPIC -o CMakeFiles/fst_muduo.dir/src/Timestamp.cc.o -c /home/zhuyi/桌面/WorkSpace/fst-muduo/src/Timestamp.cc",
+  "directory": "/home/zhuyi/桌面/WorkSpace/fst-muduo/build/src",
+  "command": "clang++ -Dfst_muduo_EXPORTS -I/home/zhuyi/桌面/WorkSpace/fst-muduo/src/include -g -fPIC -o CMakeFiles/fst_muduo.dir/Timestamp.cc.o -c /home/zhuyi/桌面/WorkSpace/fst-muduo/src/Timestamp.cc",
   "file": "/home/zhuyi/桌面/WorkSpace/fst-muduo/src/Timestamp.cc"
 },
 {
   "directory": "/home/zhuyi/桌面/WorkSpace/fst-muduo/build/test",
   "command": "clang++  -I/home/zhuyi/桌面/WorkSpace/fst-muduo/src/include -g -o CMakeFiles/Timestamp_test.dir/Timestamp_test.cc.o -c /home/zhuyi/桌面/WorkSpace/fst-muduo/test/Timestamp_test.cc",
   "file": "/home/zhuyi/桌面/WorkSpace/fst-muduo/test/Timestamp_test.cc"
+},
+{
+  "directory": "/home/zhuyi/桌面/WorkSpace/fst-muduo/build/test",
+  "command": "clang++  -I/home/zhuyi/桌面/WorkSpace/fst-muduo/src/include -g -o CMakeFiles/InetAddress_test.dir/InetAddress_test.cc.o -c /home/zhuyi/桌面/WorkSpace/fst-muduo/test/InetAddress_test.cc",
+  "file": "/home/zhuyi/桌面/WorkSpace/fst-muduo/test/InetAddress_test.cc"
 }
 ]

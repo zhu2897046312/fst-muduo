@@ -130,6 +130,44 @@ Timestamp_test/fast:
 	cd /home/zhuyi/桌面/WorkSpace/fst-muduo/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Timestamp_test.dir/build.make test/CMakeFiles/Timestamp_test.dir/build
 .PHONY : Timestamp_test/fast
 
+# Convenience name for target.
+test/CMakeFiles/InetAddress_test.dir/rule:
+	cd /home/zhuyi/桌面/WorkSpace/fst-muduo/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/CMakeFiles/InetAddress_test.dir/rule
+.PHONY : test/CMakeFiles/InetAddress_test.dir/rule
+
+# Convenience name for target.
+InetAddress_test: test/CMakeFiles/InetAddress_test.dir/rule
+.PHONY : InetAddress_test
+
+# fast build rule for target.
+InetAddress_test/fast:
+	cd /home/zhuyi/桌面/WorkSpace/fst-muduo/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/InetAddress_test.dir/build.make test/CMakeFiles/InetAddress_test.dir/build
+.PHONY : InetAddress_test/fast
+
+InetAddress_test.o: InetAddress_test.cc.o
+.PHONY : InetAddress_test.o
+
+# target to build an object file
+InetAddress_test.cc.o:
+	cd /home/zhuyi/桌面/WorkSpace/fst-muduo/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/InetAddress_test.dir/build.make test/CMakeFiles/InetAddress_test.dir/InetAddress_test.cc.o
+.PHONY : InetAddress_test.cc.o
+
+InetAddress_test.i: InetAddress_test.cc.i
+.PHONY : InetAddress_test.i
+
+# target to preprocess a source file
+InetAddress_test.cc.i:
+	cd /home/zhuyi/桌面/WorkSpace/fst-muduo/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/InetAddress_test.dir/build.make test/CMakeFiles/InetAddress_test.dir/InetAddress_test.cc.i
+.PHONY : InetAddress_test.cc.i
+
+InetAddress_test.s: InetAddress_test.cc.s
+.PHONY : InetAddress_test.s
+
+# target to generate assembly for a file
+InetAddress_test.cc.s:
+	cd /home/zhuyi/桌面/WorkSpace/fst-muduo/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/InetAddress_test.dir/build.make test/CMakeFiles/InetAddress_test.dir/InetAddress_test.cc.s
+.PHONY : InetAddress_test.cc.s
+
 Timestamp_test.o: Timestamp_test.cc.o
 .PHONY : Timestamp_test.o
 
@@ -162,7 +200,11 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... InetAddress_test"
 	@echo "... Timestamp_test"
+	@echo "... InetAddress_test.o"
+	@echo "... InetAddress_test.i"
+	@echo "... InetAddress_test.s"
 	@echo "... Timestamp_test.o"
 	@echo "... Timestamp_test.i"
 	@echo "... Timestamp_test.s"

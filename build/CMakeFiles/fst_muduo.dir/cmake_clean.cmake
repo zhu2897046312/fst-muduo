@@ -1,10 +1,12 @@
 file(REMOVE_RECURSE
+  "../lib/libfst_muduo.pdb"
+  "../lib/libfst_muduo.so"
+  "CMakeFiles/fst_muduo.dir/src/InetAddress.cc.o"
+  "CMakeFiles/fst_muduo.dir/src/InetAddress.cc.o.d"
   "CMakeFiles/fst_muduo.dir/src/Logger.cc.o"
   "CMakeFiles/fst_muduo.dir/src/Logger.cc.o.d"
   "CMakeFiles/fst_muduo.dir/src/Timestamp.cc.o"
   "CMakeFiles/fst_muduo.dir/src/Timestamp.cc.o.d"
-  "libfst_muduo.pdb"
-  "libfst_muduo.so"
 )
 
 # Per-language clean rules from dependency scanning.

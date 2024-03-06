@@ -1,0 +1,1 @@
+clang++ -g -rdynamic CMakeFiles/InetAddress_test.dir/InetAddress_test.cc.o -o ../../bin/InetAddress_test  -Wl,-rpath,/home/zhuyi/桌面/WorkSpace/fst-muduo/lib ../../lib/libfst_muduo.so 

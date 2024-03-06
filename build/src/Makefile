@@ -116,6 +116,116 @@ depend:
 	cd /home/zhuyi/桌面/WorkSpace/fst-muduo/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
+# Convenience name for target.
+src/CMakeFiles/fst_muduo.dir/rule:
+	cd /home/zhuyi/桌面/WorkSpace/fst-muduo/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/fst_muduo.dir/rule
+.PHONY : src/CMakeFiles/fst_muduo.dir/rule
+
+# Convenience name for target.
+fst_muduo: src/CMakeFiles/fst_muduo.dir/rule
+.PHONY : fst_muduo
+
+# fast build rule for target.
+fst_muduo/fast:
+	cd /home/zhuyi/桌面/WorkSpace/fst-muduo/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/fst_muduo.dir/build.make src/CMakeFiles/fst_muduo.dir/build
+.PHONY : fst_muduo/fast
+
+Channel.o: Channel.cc.o
+.PHONY : Channel.o
+
+# target to build an object file
+Channel.cc.o:
+	cd /home/zhuyi/桌面/WorkSpace/fst-muduo/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/fst_muduo.dir/build.make src/CMakeFiles/fst_muduo.dir/Channel.cc.o
+.PHONY : Channel.cc.o
+
+Channel.i: Channel.cc.i
+.PHONY : Channel.i
+
+# target to preprocess a source file
+Channel.cc.i:
+	cd /home/zhuyi/桌面/WorkSpace/fst-muduo/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/fst_muduo.dir/build.make src/CMakeFiles/fst_muduo.dir/Channel.cc.i
+.PHONY : Channel.cc.i
+
+Channel.s: Channel.cc.s
+.PHONY : Channel.s
+
+# target to generate assembly for a file
+Channel.cc.s:
+	cd /home/zhuyi/桌面/WorkSpace/fst-muduo/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/fst_muduo.dir/build.make src/CMakeFiles/fst_muduo.dir/Channel.cc.s
+.PHONY : Channel.cc.s
+
+InetAddress.o: InetAddress.cc.o
+.PHONY : InetAddress.o
+
+# target to build an object file
+InetAddress.cc.o:
+	cd /home/zhuyi/桌面/WorkSpace/fst-muduo/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/fst_muduo.dir/build.make src/CMakeFiles/fst_muduo.dir/InetAddress.cc.o
+.PHONY : InetAddress.cc.o
+
+InetAddress.i: InetAddress.cc.i
+.PHONY : InetAddress.i
+
+# target to preprocess a source file
+InetAddress.cc.i:
+	cd /home/zhuyi/桌面/WorkSpace/fst-muduo/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/fst_muduo.dir/build.make src/CMakeFiles/fst_muduo.dir/InetAddress.cc.i
+.PHONY : InetAddress.cc.i
+
+InetAddress.s: InetAddress.cc.s
+.PHONY : InetAddress.s
+
+# target to generate assembly for a file
+InetAddress.cc.s:
+	cd /home/zhuyi/桌面/WorkSpace/fst-muduo/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/fst_muduo.dir/build.make src/CMakeFiles/fst_muduo.dir/InetAddress.cc.s
+.PHONY : InetAddress.cc.s
+
+Logger.o: Logger.cc.o
+.PHONY : Logger.o
+
+# target to build an object file
+Logger.cc.o:
+	cd /home/zhuyi/桌面/WorkSpace/fst-muduo/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/fst_muduo.dir/build.make src/CMakeFiles/fst_muduo.dir/Logger.cc.o
+.PHONY : Logger.cc.o
+
+Logger.i: Logger.cc.i
+.PHONY : Logger.i
+
+# target to preprocess a source file
+Logger.cc.i:
+	cd /home/zhuyi/桌面/WorkSpace/fst-muduo/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/fst_muduo.dir/build.make src/CMakeFiles/fst_muduo.dir/Logger.cc.i
+.PHONY : Logger.cc.i
+
+Logger.s: Logger.cc.s
+.PHONY : Logger.s
+
+# target to generate assembly for a file
+Logger.cc.s:
+	cd /home/zhuyi/桌面/WorkSpace/fst-muduo/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/fst_muduo.dir/build.make src/CMakeFiles/fst_muduo.dir/Logger.cc.s
+.PHONY : Logger.cc.s
+
+Timestamp.o: Timestamp.cc.o
+.PHONY : Timestamp.o
+
+# target to build an object file
+Timestamp.cc.o:
+	cd /home/zhuyi/桌面/WorkSpace/fst-muduo/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/fst_muduo.dir/build.make src/CMakeFiles/fst_muduo.dir/Timestamp.cc.o
+.PHONY : Timestamp.cc.o
+
+Timestamp.i: Timestamp.cc.i
+.PHONY : Timestamp.i
+
+# target to preprocess a source file
+Timestamp.cc.i:
+	cd /home/zhuyi/桌面/WorkSpace/fst-muduo/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/fst_muduo.dir/build.make src/CMakeFiles/fst_muduo.dir/Timestamp.cc.i
+.PHONY : Timestamp.cc.i
+
+Timestamp.s: Timestamp.cc.s
+.PHONY : Timestamp.s
+
+# target to generate assembly for a file
+Timestamp.cc.s:
+	cd /home/zhuyi/桌面/WorkSpace/fst-muduo/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/fst_muduo.dir/build.make src/CMakeFiles/fst_muduo.dir/Timestamp.cc.s
+.PHONY : Timestamp.cc.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -124,6 +234,19 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... fst_muduo"
+	@echo "... Channel.o"
+	@echo "... Channel.i"
+	@echo "... Channel.s"
+	@echo "... InetAddress.o"
+	@echo "... InetAddress.i"
+	@echo "... InetAddress.s"
+	@echo "... Logger.o"
+	@echo "... Logger.i"
+	@echo "... Logger.s"
+	@echo "... Timestamp.o"
+	@echo "... Timestamp.i"
+	@echo "... Timestamp.s"
 .PHONY : help
 
 

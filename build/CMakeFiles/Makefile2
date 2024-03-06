@@ -63,7 +63,6 @@ CMAKE_BINARY_DIR = /home/zhuyi/桌面/WorkSpace/fst-muduo/build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/fst_muduo.dir/all
 all: src/all
 all: test/all
 .PHONY : all
@@ -74,7 +73,6 @@ preinstall: test/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/fst_muduo.dir/clean
 clean: src/clean
 clean: test/clean
 .PHONY : clean
@@ -83,7 +81,7 @@ clean: test/clean
 # Directory level rules for directory src
 
 # Recursive "all" directory target.
-src/all:
+src/all: src/CMakeFiles/fst_muduo.dir/all
 .PHONY : src/all
 
 # Recursive "preinstall" directory target.
@@ -91,7 +89,7 @@ src/preinstall:
 .PHONY : src/preinstall
 
 # Recursive "clean" directory target.
-src/clean:
+src/clean: src/CMakeFiles/fst_muduo.dir/clean
 .PHONY : src/clean
 
 #=============================================================================
@@ -99,6 +97,7 @@ src/clean:
 
 # Recursive "all" directory target.
 test/all: test/CMakeFiles/Timestamp_test.dir/all
+test/all: test/CMakeFiles/InetAddress_test.dir/all
 .PHONY : test/all
 
 # Recursive "preinstall" directory target.
@@ -107,47 +106,48 @@ test/preinstall:
 
 # Recursive "clean" directory target.
 test/clean: test/CMakeFiles/Timestamp_test.dir/clean
+test/clean: test/CMakeFiles/InetAddress_test.dir/clean
 .PHONY : test/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/fst_muduo.dir
+# Target rules for target src/CMakeFiles/fst_muduo.dir
 
 # All Build rule for target.
-CMakeFiles/fst_muduo.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/fst_muduo.dir/build.make CMakeFiles/fst_muduo.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/fst_muduo.dir/build.make CMakeFiles/fst_muduo.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zhuyi/桌面/WorkSpace/fst-muduo/build/CMakeFiles --progress-num=3,4,5 "Built target fst_muduo"
-.PHONY : CMakeFiles/fst_muduo.dir/all
+src/CMakeFiles/fst_muduo.dir/all:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/fst_muduo.dir/build.make src/CMakeFiles/fst_muduo.dir/depend
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/fst_muduo.dir/build.make src/CMakeFiles/fst_muduo.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zhuyi/桌面/WorkSpace/fst-muduo/build/CMakeFiles --progress-num=5,6,7,8,9 "Built target fst_muduo"
+.PHONY : src/CMakeFiles/fst_muduo.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/fst_muduo.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zhuyi/桌面/WorkSpace/fst-muduo/build/CMakeFiles 3
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/fst_muduo.dir/all
+src/CMakeFiles/fst_muduo.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zhuyi/桌面/WorkSpace/fst-muduo/build/CMakeFiles 5
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/fst_muduo.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/zhuyi/桌面/WorkSpace/fst-muduo/build/CMakeFiles 0
-.PHONY : CMakeFiles/fst_muduo.dir/rule
+.PHONY : src/CMakeFiles/fst_muduo.dir/rule
 
 # Convenience name for target.
-fst_muduo: CMakeFiles/fst_muduo.dir/rule
+fst_muduo: src/CMakeFiles/fst_muduo.dir/rule
 .PHONY : fst_muduo
 
 # clean rule for target.
-CMakeFiles/fst_muduo.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/fst_muduo.dir/build.make CMakeFiles/fst_muduo.dir/clean
-.PHONY : CMakeFiles/fst_muduo.dir/clean
+src/CMakeFiles/fst_muduo.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/fst_muduo.dir/build.make src/CMakeFiles/fst_muduo.dir/clean
+.PHONY : src/CMakeFiles/fst_muduo.dir/clean
 
 #=============================================================================
 # Target rules for target test/CMakeFiles/Timestamp_test.dir
 
 # All Build rule for target.
-test/CMakeFiles/Timestamp_test.dir/all: CMakeFiles/fst_muduo.dir/all
+test/CMakeFiles/Timestamp_test.dir/all: src/CMakeFiles/fst_muduo.dir/all
 	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/Timestamp_test.dir/build.make test/CMakeFiles/Timestamp_test.dir/depend
 	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/Timestamp_test.dir/build.make test/CMakeFiles/Timestamp_test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zhuyi/桌面/WorkSpace/fst-muduo/build/CMakeFiles --progress-num=1,2 "Built target Timestamp_test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zhuyi/桌面/WorkSpace/fst-muduo/build/CMakeFiles --progress-num=3,4 "Built target Timestamp_test"
 .PHONY : test/CMakeFiles/Timestamp_test.dir/all
 
 # Build rule for subdir invocation for target.
 test/CMakeFiles/Timestamp_test.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zhuyi/桌面/WorkSpace/fst-muduo/build/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zhuyi/桌面/WorkSpace/fst-muduo/build/CMakeFiles 7
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/CMakeFiles/Timestamp_test.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/zhuyi/桌面/WorkSpace/fst-muduo/build/CMakeFiles 0
 .PHONY : test/CMakeFiles/Timestamp_test.dir/rule
@@ -160,6 +160,32 @@ Timestamp_test: test/CMakeFiles/Timestamp_test.dir/rule
 test/CMakeFiles/Timestamp_test.dir/clean:
 	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/Timestamp_test.dir/build.make test/CMakeFiles/Timestamp_test.dir/clean
 .PHONY : test/CMakeFiles/Timestamp_test.dir/clean
+
+#=============================================================================
+# Target rules for target test/CMakeFiles/InetAddress_test.dir
+
+# All Build rule for target.
+test/CMakeFiles/InetAddress_test.dir/all: src/CMakeFiles/fst_muduo.dir/all
+	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/InetAddress_test.dir/build.make test/CMakeFiles/InetAddress_test.dir/depend
+	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/InetAddress_test.dir/build.make test/CMakeFiles/InetAddress_test.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zhuyi/桌面/WorkSpace/fst-muduo/build/CMakeFiles --progress-num=1,2 "Built target InetAddress_test"
+.PHONY : test/CMakeFiles/InetAddress_test.dir/all
+
+# Build rule for subdir invocation for target.
+test/CMakeFiles/InetAddress_test.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zhuyi/桌面/WorkSpace/fst-muduo/build/CMakeFiles 7
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/CMakeFiles/InetAddress_test.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zhuyi/桌面/WorkSpace/fst-muduo/build/CMakeFiles 0
+.PHONY : test/CMakeFiles/InetAddress_test.dir/rule
+
+# Convenience name for target.
+InetAddress_test: test/CMakeFiles/InetAddress_test.dir/rule
+.PHONY : InetAddress_test
+
+# clean rule for target.
+test/CMakeFiles/InetAddress_test.dir/clean:
+	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/InetAddress_test.dir/build.make test/CMakeFiles/InetAddress_test.dir/clean
+.PHONY : test/CMakeFiles/InetAddress_test.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

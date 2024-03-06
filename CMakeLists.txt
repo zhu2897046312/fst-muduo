@@ -5,7 +5,7 @@ project(fst_muduo)
 set(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/bin)
 
 #设置编译成的so库路径
-set(LIBRARY_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/lib)
+set(LIBRARY_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/lib)
 
 #设置调试信息
 set(CMAKE_BUILD_TYPE "DEBUG")
@@ -21,8 +21,6 @@ include_directories(${PROJECT_SOURCE_DIR}/src/include)
 #定义参与编译的源代码文件
 aux_source_directory(${PROJECT_SOURCE_DIR}/src SRC_LIST)
 
-#编译动态库
-add_library(fst_muduo SHARED ${SRC_LIST})
 
 add_subdirectory(src)
 add_subdirectory(test)
