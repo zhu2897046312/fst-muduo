@@ -1,0 +1,1 @@
+clang++ -fPIC -g -shared -Wl,-soname,libfst_muduo.so -o libfst_muduo.so CMakeFiles/fst_muduo.dir/src/Logger.cc.o CMakeFiles/fst_muduo.dir/src/Timestamp.cc.o 

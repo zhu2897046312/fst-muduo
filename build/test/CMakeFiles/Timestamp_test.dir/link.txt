@@ -1,0 +1,1 @@
+clang++ -g -rdynamic CMakeFiles/Timestamp_test.dir/Timestamp_test.cc.o -o ../../bin/Timestamp_test  -Wl,-rpath,/home/zhuyi/桌面/WorkSpace/fst-muduo/build ../libfst_muduo.so 
