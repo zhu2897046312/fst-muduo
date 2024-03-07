@@ -18,7 +18,7 @@ void Logger::log(std::string msg){
     case INFO:
         std::cout << "[INFO]";
         break;
-    case ERRPR:
+    case ERROR:
         std::cout << "[ERRPR]";
         break;
     case FATAL:

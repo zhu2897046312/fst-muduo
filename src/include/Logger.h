@@ -49,7 +49,7 @@
 namespace fst {
 enum LogLevel{
     INFO = 0,
-    ERRPR = 1,
+    ERROR = 1,
     FATAL = 2,
     DEBUG = 3
 };
