@@ -17,9 +17,11 @@ class EPollPoller : public Poller
 public:
     EPollPoller(EventLoop *loop);
     virtual ~EPollPoller() override;
-
+    //设置监听fd上的事件
     virtual Timestamp poll(int timeoutMs, ChannelList* activeChannels) override;
+    //修改fd注册的事件
     virtual void updateChannel(Channel*channel) override;
+    //移除fd注册的事件
     virtual void removeChannel(Channel* channel) override;
 private:
     //填写活跃的连接
@@ -30,8 +32,8 @@ private:
 private:
     using EventList = std::vector<epoll_event>;
 
-    int epoll_fd_;
-    EventList events_;
+    int epoll_fd_;      // eopll 句柄
+    EventList events_;  //就绪事件
 
     static const int kInitEventListSize = 16;
 };

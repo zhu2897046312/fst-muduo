@@ -26,8 +26,10 @@ public:
     explicit Channel(EventLoop *loop, int fd);
     ~Channel();
 
-    // fd得到Pooller通知后,处理事件
+    // fd得到Poller通知后,处理事件
     void handleEvent(Timestamp receiveTime);
+
+    void remove();
     
     // 设置回调函数对象
     void setReadCallBack(ReadEventCallBack cb) { readCallBack_ = std::move(cb); }
@@ -59,7 +61,6 @@ public:
 
     //
     EventLoop* ownerLoop() { return loop_; }
-    void remove();
 
 private:
     void update();

@@ -6,6 +6,21 @@
 },
 {
   "directory": "/home/zhuyi/桌面/WorkSpace/fst-muduo/build/src",
+  "command": "clang++ -Dfst_muduo_EXPORTS -I/home/zhuyi/桌面/WorkSpace/fst-muduo/src/include -g -fPIC -o CMakeFiles/fst_muduo.dir/Default.cc.o -c /home/zhuyi/桌面/WorkSpace/fst-muduo/src/Default.cc",
+  "file": "/home/zhuyi/桌面/WorkSpace/fst-muduo/src/Default.cc"
+},
+{
+  "directory": "/home/zhuyi/桌面/WorkSpace/fst-muduo/build/src",
+  "command": "clang++ -Dfst_muduo_EXPORTS -I/home/zhuyi/桌面/WorkSpace/fst-muduo/src/include -g -fPIC -o CMakeFiles/fst_muduo.dir/EPollPoller.cc.o -c /home/zhuyi/桌面/WorkSpace/fst-muduo/src/EPollPoller.cc",
+  "file": "/home/zhuyi/桌面/WorkSpace/fst-muduo/src/EPollPoller.cc"
+},
+{
+  "directory": "/home/zhuyi/桌面/WorkSpace/fst-muduo/build/src",
+  "command": "clang++ -Dfst_muduo_EXPORTS -I/home/zhuyi/桌面/WorkSpace/fst-muduo/src/include -g -fPIC -o CMakeFiles/fst_muduo.dir/EventLoop.cc.o -c /home/zhuyi/桌面/WorkSpace/fst-muduo/src/EventLoop.cc",
+  "file": "/home/zhuyi/桌面/WorkSpace/fst-muduo/src/EventLoop.cc"
+},
+{
+  "directory": "/home/zhuyi/桌面/WorkSpace/fst-muduo/build/src",
   "command": "clang++ -Dfst_muduo_EXPORTS -I/home/zhuyi/桌面/WorkSpace/fst-muduo/src/include -g -fPIC -o CMakeFiles/fst_muduo.dir/InetAddress.cc.o -c /home/zhuyi/桌面/WorkSpace/fst-muduo/src/InetAddress.cc",
   "file": "/home/zhuyi/桌面/WorkSpace/fst-muduo/src/InetAddress.cc"
 },
@@ -13,6 +28,16 @@
   "directory": "/home/zhuyi/桌面/WorkSpace/fst-muduo/build/src",
   "command": "clang++ -Dfst_muduo_EXPORTS -I/home/zhuyi/桌面/WorkSpace/fst-muduo/src/include -g -fPIC -o CMakeFiles/fst_muduo.dir/Logger.cc.o -c /home/zhuyi/桌面/WorkSpace/fst-muduo/src/Logger.cc",
   "file": "/home/zhuyi/桌面/WorkSpace/fst-muduo/src/Logger.cc"
+},
+{
+  "directory": "/home/zhuyi/桌面/WorkSpace/fst-muduo/build/src",
+  "command": "clang++ -Dfst_muduo_EXPORTS -I/home/zhuyi/桌面/WorkSpace/fst-muduo/src/include -g -fPIC -o CMakeFiles/fst_muduo.dir/Poller.cc.o -c /home/zhuyi/桌面/WorkSpace/fst-muduo/src/Poller.cc",
+  "file": "/home/zhuyi/桌面/WorkSpace/fst-muduo/src/Poller.cc"
+},
+{
+  "directory": "/home/zhuyi/桌面/WorkSpace/fst-muduo/build/src",
+  "command": "clang++ -Dfst_muduo_EXPORTS -I/home/zhuyi/桌面/WorkSpace/fst-muduo/src/include -g -fPIC -o CMakeFiles/fst_muduo.dir/TcpServer.cc.o -c /home/zhuyi/桌面/WorkSpace/fst-muduo/src/TcpServer.cc",
+  "file": "/home/zhuyi/桌面/WorkSpace/fst-muduo/src/TcpServer.cc"
 },
 {
   "directory": "/home/zhuyi/桌面/WorkSpace/fst-muduo/build/src",

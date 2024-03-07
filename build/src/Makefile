@@ -154,6 +154,78 @@ Channel.cc.s:
 	cd /home/zhuyi/桌面/WorkSpace/fst-muduo/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/fst_muduo.dir/build.make src/CMakeFiles/fst_muduo.dir/Channel.cc.s
 .PHONY : Channel.cc.s
 
+Default.o: Default.cc.o
+.PHONY : Default.o
+
+# target to build an object file
+Default.cc.o:
+	cd /home/zhuyi/桌面/WorkSpace/fst-muduo/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/fst_muduo.dir/build.make src/CMakeFiles/fst_muduo.dir/Default.cc.o
+.PHONY : Default.cc.o
+
+Default.i: Default.cc.i
+.PHONY : Default.i
+
+# target to preprocess a source file
+Default.cc.i:
+	cd /home/zhuyi/桌面/WorkSpace/fst-muduo/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/fst_muduo.dir/build.make src/CMakeFiles/fst_muduo.dir/Default.cc.i
+.PHONY : Default.cc.i
+
+Default.s: Default.cc.s
+.PHONY : Default.s
+
+# target to generate assembly for a file
+Default.cc.s:
+	cd /home/zhuyi/桌面/WorkSpace/fst-muduo/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/fst_muduo.dir/build.make src/CMakeFiles/fst_muduo.dir/Default.cc.s
+.PHONY : Default.cc.s
+
+EPollPoller.o: EPollPoller.cc.o
+.PHONY : EPollPoller.o
+
+# target to build an object file
+EPollPoller.cc.o:
+	cd /home/zhuyi/桌面/WorkSpace/fst-muduo/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/fst_muduo.dir/build.make src/CMakeFiles/fst_muduo.dir/EPollPoller.cc.o
+.PHONY : EPollPoller.cc.o
+
+EPollPoller.i: EPollPoller.cc.i
+.PHONY : EPollPoller.i
+
+# target to preprocess a source file
+EPollPoller.cc.i:
+	cd /home/zhuyi/桌面/WorkSpace/fst-muduo/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/fst_muduo.dir/build.make src/CMakeFiles/fst_muduo.dir/EPollPoller.cc.i
+.PHONY : EPollPoller.cc.i
+
+EPollPoller.s: EPollPoller.cc.s
+.PHONY : EPollPoller.s
+
+# target to generate assembly for a file
+EPollPoller.cc.s:
+	cd /home/zhuyi/桌面/WorkSpace/fst-muduo/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/fst_muduo.dir/build.make src/CMakeFiles/fst_muduo.dir/EPollPoller.cc.s
+.PHONY : EPollPoller.cc.s
+
+EventLoop.o: EventLoop.cc.o
+.PHONY : EventLoop.o
+
+# target to build an object file
+EventLoop.cc.o:
+	cd /home/zhuyi/桌面/WorkSpace/fst-muduo/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/fst_muduo.dir/build.make src/CMakeFiles/fst_muduo.dir/EventLoop.cc.o
+.PHONY : EventLoop.cc.o
+
+EventLoop.i: EventLoop.cc.i
+.PHONY : EventLoop.i
+
+# target to preprocess a source file
+EventLoop.cc.i:
+	cd /home/zhuyi/桌面/WorkSpace/fst-muduo/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/fst_muduo.dir/build.make src/CMakeFiles/fst_muduo.dir/EventLoop.cc.i
+.PHONY : EventLoop.cc.i
+
+EventLoop.s: EventLoop.cc.s
+.PHONY : EventLoop.s
+
+# target to generate assembly for a file
+EventLoop.cc.s:
+	cd /home/zhuyi/桌面/WorkSpace/fst-muduo/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/fst_muduo.dir/build.make src/CMakeFiles/fst_muduo.dir/EventLoop.cc.s
+.PHONY : EventLoop.cc.s
+
 InetAddress.o: InetAddress.cc.o
 .PHONY : InetAddress.o
 
@@ -202,6 +274,54 @@ Logger.cc.s:
 	cd /home/zhuyi/桌面/WorkSpace/fst-muduo/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/fst_muduo.dir/build.make src/CMakeFiles/fst_muduo.dir/Logger.cc.s
 .PHONY : Logger.cc.s
 
+Poller.o: Poller.cc.o
+.PHONY : Poller.o
+
+# target to build an object file
+Poller.cc.o:
+	cd /home/zhuyi/桌面/WorkSpace/fst-muduo/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/fst_muduo.dir/build.make src/CMakeFiles/fst_muduo.dir/Poller.cc.o
+.PHONY : Poller.cc.o
+
+Poller.i: Poller.cc.i
+.PHONY : Poller.i
+
+# target to preprocess a source file
+Poller.cc.i:
+	cd /home/zhuyi/桌面/WorkSpace/fst-muduo/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/fst_muduo.dir/build.make src/CMakeFiles/fst_muduo.dir/Poller.cc.i
+.PHONY : Poller.cc.i
+
+Poller.s: Poller.cc.s
+.PHONY : Poller.s
+
+# target to generate assembly for a file
+Poller.cc.s:
+	cd /home/zhuyi/桌面/WorkSpace/fst-muduo/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/fst_muduo.dir/build.make src/CMakeFiles/fst_muduo.dir/Poller.cc.s
+.PHONY : Poller.cc.s
+
+TcpServer.o: TcpServer.cc.o
+.PHONY : TcpServer.o
+
+# target to build an object file
+TcpServer.cc.o:
+	cd /home/zhuyi/桌面/WorkSpace/fst-muduo/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/fst_muduo.dir/build.make src/CMakeFiles/fst_muduo.dir/TcpServer.cc.o
+.PHONY : TcpServer.cc.o
+
+TcpServer.i: TcpServer.cc.i
+.PHONY : TcpServer.i
+
+# target to preprocess a source file
+TcpServer.cc.i:
+	cd /home/zhuyi/桌面/WorkSpace/fst-muduo/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/fst_muduo.dir/build.make src/CMakeFiles/fst_muduo.dir/TcpServer.cc.i
+.PHONY : TcpServer.cc.i
+
+TcpServer.s: TcpServer.cc.s
+.PHONY : TcpServer.s
+
+# target to generate assembly for a file
+TcpServer.cc.s:
+	cd /home/zhuyi/桌面/WorkSpace/fst-muduo/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/fst_muduo.dir/build.make src/CMakeFiles/fst_muduo.dir/TcpServer.cc.s
+.PHONY : TcpServer.cc.s
+
 Timestamp.o: Timestamp.cc.o
 .PHONY : Timestamp.o
 
@@ -238,12 +358,27 @@ help:
 	@echo "... Channel.o"
 	@echo "... Channel.i"
 	@echo "... Channel.s"
+	@echo "... Default.o"
+	@echo "... Default.i"
+	@echo "... Default.s"
+	@echo "... EPollPoller.o"
+	@echo "... EPollPoller.i"
+	@echo "... EPollPoller.s"
+	@echo "... EventLoop.o"
+	@echo "... EventLoop.i"
+	@echo "... EventLoop.s"
 	@echo "... InetAddress.o"
 	@echo "... InetAddress.i"
 	@echo "... InetAddress.s"
 	@echo "... Logger.o"
 	@echo "... Logger.i"
 	@echo "... Logger.s"
+	@echo "... Poller.o"
+	@echo "... Poller.i"
+	@echo "... Poller.s"
+	@echo "... TcpServer.o"
+	@echo "... TcpServer.i"
+	@echo "... TcpServer.s"
 	@echo "... Timestamp.o"
 	@echo "... Timestamp.i"
 	@echo "... Timestamp.s"

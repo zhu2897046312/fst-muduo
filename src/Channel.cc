@@ -20,7 +20,7 @@ Channel::Channel(EventLoop *loop, int fd)
 Channel::~Channel(){
 }
 
-// fd得到Pooller通知后,处理事件
+// fd得到Poller通知后,处理事件
 void Channel::handleEvent(Timestamp receiveTime){
     //从弱智能指针提升成强智能指针
     /**

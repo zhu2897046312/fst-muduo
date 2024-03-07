@@ -1,8 +1,11 @@
 #include "EPollPoller.h"
 
+#include "Channel.h"
 #include "Logger.h"
 #include "Poller.h"
+#include "Timestamp.h"
 
+#include <cerrno>
 #include <cstdlib>
 #include <cstring>
 #include <sys/epoll.h>
@@ -30,13 +33,36 @@ EPollPoller::~EPollPoller(){
     ::close(epoll_fd_);
 }
 
+//监听fd上的事件
 Timestamp EPollPoller::poll(int timeoutMs, ChannelList* activeChannels){
-    
+    LOG_INFO("func=%s => fd total count:%lu\n"
+        , __FUNCTION__
+        ,channels_.size());
+
+    int numEvents = ::epoll_wait(epoll_fd_, &*events_.begin(), static_cast<int>(events_.size()), timeoutMs);
+    int saveErrno = errno;
+    Timestamp now(Timestamp::now());
+    if(numEvents > 0){
+        LOG_INFO("%d events hanppened \n",numEvents);
+        fillActiveChannels(numEvents, activeChannels);
+        if(numEvents == events_.size()){
+            events_.resize(events_.size() * 2);
+        }
+    }else if(numEvents == 0){
+        LOG_INFO("%s timeout! \n", __FUNCTION__);
+    }else{
+        if(saveErrno != EINTR){
+            errno = saveErrno;
+            LOG_ERROR("EPollPoller::poll() err!");
+        }
+    }
+    return now;
 }
 void EPollPoller::updateChannel(Channel*channel){
     
     const int index = channel->index();
-    LOG_INFO("fd=%d events=%d index=%d\n"
+    LOG_INFO("func=%s fd=%d events=%d index=%d\n"
+        , __FUNCTION__
         ,channel->fd()
         ,channel->events()
         ,channel->index());
@@ -48,20 +74,26 @@ void EPollPoller::updateChannel(Channel*channel){
         }
 
         channel->set_index(kAdded);
-        update(EPOLL_CTL_ADD, channel);
+        update(EPOLL_CTL_ADD, channel); //给channel中的fd 添加监听事件
     }else{
         int fd = channel->fd();
         if(channel->isNoneEvent()){
-            update(EPOLL_CTL_DEL, channel);
+            update(EPOLL_CTL_DEL, channel); //给channel中的fd 删除监听事件
             channel->set_index(kDeleted);
         }else{
-            update(EPOLL_CTL_MOD, channel);;
+            update(EPOLL_CTL_MOD, channel); //给channel中的fd 修改监听事件
         }
     }
 }
 void EPollPoller::removeChannel(Channel* channel){
     int fd = channel->fd();
     channels_.erase(fd);
+
+    LOG_INFO("func=%s fd=%d events=%d index=%d\n"
+        , __FUNCTION__
+        ,channel->fd()
+        ,channel->events()
+        ,channel->index());
 
     int index = channel->index();
     if(kAdded == index || kDeleted == index){
@@ -72,10 +104,14 @@ void EPollPoller::removeChannel(Channel* channel){
 }
 //填写活跃的连接
 void EPollPoller::fillActiveChannels(int numEvents, ChannelList* activeChannels) const{
-    
+    for(int i = 0; i < numEvents; i++){
+        Channel* channel = static_cast<Channel*>(events_[i].data.ptr);
+        channel->set_revents(events_[i].events);
+        activeChannels->push_back(channel);
+    }
 }
 
-//更新Channel通道
+//更新Channel通道 fd注册事件
 void EPollPoller::update(int operation, Channel*channel){
     
     int fd = channel->fd();
