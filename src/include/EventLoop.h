@@ -15,6 +15,9 @@
 
 namespace fst {
 
+class Channel;
+class Poller;
+
 class EventLoop : nonccopyable
 {
 public:
