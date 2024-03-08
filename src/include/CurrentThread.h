@@ -7,7 +7,7 @@ static thread_local pid_t t_cachedTid;
 
 void cacheTid();
 
-inline pid_t tid(){
+inline pid_t GetCurrentThreadId(){
     if(__builtin_expect(t_cachedTid == 0, 0)){
         cacheTid();
     }

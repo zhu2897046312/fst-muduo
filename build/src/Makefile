@@ -154,6 +154,30 @@ Channel.cc.s:
 	cd /home/zhuyi/桌面/WorkSpace/fst-muduo/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/fst_muduo.dir/build.make src/CMakeFiles/fst_muduo.dir/Channel.cc.s
 .PHONY : Channel.cc.s
 
+CurrentThread.o: CurrentThread.cc.o
+.PHONY : CurrentThread.o
+
+# target to build an object file
+CurrentThread.cc.o:
+	cd /home/zhuyi/桌面/WorkSpace/fst-muduo/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/fst_muduo.dir/build.make src/CMakeFiles/fst_muduo.dir/CurrentThread.cc.o
+.PHONY : CurrentThread.cc.o
+
+CurrentThread.i: CurrentThread.cc.i
+.PHONY : CurrentThread.i
+
+# target to preprocess a source file
+CurrentThread.cc.i:
+	cd /home/zhuyi/桌面/WorkSpace/fst-muduo/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/fst_muduo.dir/build.make src/CMakeFiles/fst_muduo.dir/CurrentThread.cc.i
+.PHONY : CurrentThread.cc.i
+
+CurrentThread.s: CurrentThread.cc.s
+.PHONY : CurrentThread.s
+
+# target to generate assembly for a file
+CurrentThread.cc.s:
+	cd /home/zhuyi/桌面/WorkSpace/fst-muduo/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/fst_muduo.dir/build.make src/CMakeFiles/fst_muduo.dir/CurrentThread.cc.s
+.PHONY : CurrentThread.cc.s
+
 Default.o: Default.cc.o
 .PHONY : Default.o
 
@@ -358,6 +382,9 @@ help:
 	@echo "... Channel.o"
 	@echo "... Channel.i"
 	@echo "... Channel.s"
+	@echo "... CurrentThread.o"
+	@echo "... CurrentThread.i"
+	@echo "... CurrentThread.s"
 	@echo "... Default.o"
 	@echo "... Default.i"
 	@echo "... Default.s"

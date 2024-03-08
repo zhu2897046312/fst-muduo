@@ -3,6 +3,8 @@ file(REMOVE_RECURSE
   "../../lib/libfst_muduo.so"
   "CMakeFiles/fst_muduo.dir/Channel.cc.o"
   "CMakeFiles/fst_muduo.dir/Channel.cc.o.d"
+  "CMakeFiles/fst_muduo.dir/CurrentThread.cc.o"
+  "CMakeFiles/fst_muduo.dir/CurrentThread.cc.o.d"
   "CMakeFiles/fst_muduo.dir/Default.cc.o"
   "CMakeFiles/fst_muduo.dir/Default.cc.o.d"
   "CMakeFiles/fst_muduo.dir/EPollPoller.cc.o"

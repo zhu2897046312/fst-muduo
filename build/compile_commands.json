@@ -6,6 +6,11 @@
 },
 {
   "directory": "/home/zhuyi/桌面/WorkSpace/fst-muduo/build/src",
+  "command": "clang++ -Dfst_muduo_EXPORTS -I/home/zhuyi/桌面/WorkSpace/fst-muduo/src/include -g -fPIC -o CMakeFiles/fst_muduo.dir/CurrentThread.cc.o -c /home/zhuyi/桌面/WorkSpace/fst-muduo/src/CurrentThread.cc",
+  "file": "/home/zhuyi/桌面/WorkSpace/fst-muduo/src/CurrentThread.cc"
+},
+{
+  "directory": "/home/zhuyi/桌面/WorkSpace/fst-muduo/build/src",
   "command": "clang++ -Dfst_muduo_EXPORTS -I/home/zhuyi/桌面/WorkSpace/fst-muduo/src/include -g -fPIC -o CMakeFiles/fst_muduo.dir/Default.cc.o -c /home/zhuyi/桌面/WorkSpace/fst-muduo/src/Default.cc",
   "file": "/home/zhuyi/桌面/WorkSpace/fst-muduo/src/Default.cc"
 },

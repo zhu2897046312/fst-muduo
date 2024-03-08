@@ -48,7 +48,7 @@ void Channel::tie(const std::shared_ptr<void>& obj){
 void Channel::update(){
     //t通过Channel所属的EentLoop,调用Poller相应的方法,注册fd的events事件
 
-    //loop_->udateChannel(this);
+    loop_->updateChannel(this);
 }
 
 //根据Poller通知的Channel发生的具体事件,由Channel负责调用具体的回调操作
@@ -84,7 +84,7 @@ void Channel::handleEventWithGuard(Timestamp receiveTime){
 //在Channel所属的EentLoop中,把当前的Channel删除掉
 void Channel::remove(){
 
-    //loop_->remove(this);
+    loop_->removeChannel(this);
 }
 
 }

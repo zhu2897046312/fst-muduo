@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/zhuyi/桌面/WorkSpace/fst-muduo/src/Channel.cc" "src/CMakeFiles/fst_muduo.dir/Channel.cc.o" "gcc" "src/CMakeFiles/fst_muduo.dir/Channel.cc.o.d"
+  "/home/zhuyi/桌面/WorkSpace/fst-muduo/src/CurrentThread.cc" "src/CMakeFiles/fst_muduo.dir/CurrentThread.cc.o" "gcc" "src/CMakeFiles/fst_muduo.dir/CurrentThread.cc.o.d"
   "/home/zhuyi/桌面/WorkSpace/fst-muduo/src/Default.cc" "src/CMakeFiles/fst_muduo.dir/Default.cc.o" "gcc" "src/CMakeFiles/fst_muduo.dir/Default.cc.o.d"
   "/home/zhuyi/桌面/WorkSpace/fst-muduo/src/EPollPoller.cc" "src/CMakeFiles/fst_muduo.dir/EPollPoller.cc.o" "gcc" "src/CMakeFiles/fst_muduo.dir/EPollPoller.cc.o.d"
   "/home/zhuyi/桌面/WorkSpace/fst-muduo/src/EventLoop.cc" "src/CMakeFiles/fst_muduo.dir/EventLoop.cc.o" "gcc" "src/CMakeFiles/fst_muduo.dir/EventLoop.cc.o.d"

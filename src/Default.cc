@@ -1,3 +1,4 @@
+#include "EPollPoller.h"
 #include "Poller.h"
 #include <cstdlib>
 
@@ -8,7 +9,7 @@ Poller* Poller::newDefaltPoller(EventLoop *loop){
     if(::getenv("MUDUO_USE_POLL")){
         return nullptr;
     }else{
-        return nullptr;
+        return new EPollPoller(loop);
     }
 }
 
