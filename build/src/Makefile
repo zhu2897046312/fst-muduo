@@ -130,6 +130,30 @@ fst_muduo/fast:
 	cd /home/zhuyi/桌面/WorkSpace/fst-muduo/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/fst_muduo.dir/build.make src/CMakeFiles/fst_muduo.dir/build
 .PHONY : fst_muduo/fast
 
+Acceptor.o: Acceptor.cc.o
+.PHONY : Acceptor.o
+
+# target to build an object file
+Acceptor.cc.o:
+	cd /home/zhuyi/桌面/WorkSpace/fst-muduo/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/fst_muduo.dir/build.make src/CMakeFiles/fst_muduo.dir/Acceptor.cc.o
+.PHONY : Acceptor.cc.o
+
+Acceptor.i: Acceptor.cc.i
+.PHONY : Acceptor.i
+
+# target to preprocess a source file
+Acceptor.cc.i:
+	cd /home/zhuyi/桌面/WorkSpace/fst-muduo/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/fst_muduo.dir/build.make src/CMakeFiles/fst_muduo.dir/Acceptor.cc.i
+.PHONY : Acceptor.cc.i
+
+Acceptor.s: Acceptor.cc.s
+.PHONY : Acceptor.s
+
+# target to generate assembly for a file
+Acceptor.cc.s:
+	cd /home/zhuyi/桌面/WorkSpace/fst-muduo/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/fst_muduo.dir/build.make src/CMakeFiles/fst_muduo.dir/Acceptor.cc.s
+.PHONY : Acceptor.cc.s
+
 Channel.o: Channel.cc.o
 .PHONY : Channel.o
 
@@ -250,6 +274,54 @@ EventLoop.cc.s:
 	cd /home/zhuyi/桌面/WorkSpace/fst-muduo/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/fst_muduo.dir/build.make src/CMakeFiles/fst_muduo.dir/EventLoop.cc.s
 .PHONY : EventLoop.cc.s
 
+EventLoopThread.o: EventLoopThread.cc.o
+.PHONY : EventLoopThread.o
+
+# target to build an object file
+EventLoopThread.cc.o:
+	cd /home/zhuyi/桌面/WorkSpace/fst-muduo/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/fst_muduo.dir/build.make src/CMakeFiles/fst_muduo.dir/EventLoopThread.cc.o
+.PHONY : EventLoopThread.cc.o
+
+EventLoopThread.i: EventLoopThread.cc.i
+.PHONY : EventLoopThread.i
+
+# target to preprocess a source file
+EventLoopThread.cc.i:
+	cd /home/zhuyi/桌面/WorkSpace/fst-muduo/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/fst_muduo.dir/build.make src/CMakeFiles/fst_muduo.dir/EventLoopThread.cc.i
+.PHONY : EventLoopThread.cc.i
+
+EventLoopThread.s: EventLoopThread.cc.s
+.PHONY : EventLoopThread.s
+
+# target to generate assembly for a file
+EventLoopThread.cc.s:
+	cd /home/zhuyi/桌面/WorkSpace/fst-muduo/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/fst_muduo.dir/build.make src/CMakeFiles/fst_muduo.dir/EventLoopThread.cc.s
+.PHONY : EventLoopThread.cc.s
+
+EventLoopThreadPool.o: EventLoopThreadPool.cc.o
+.PHONY : EventLoopThreadPool.o
+
+# target to build an object file
+EventLoopThreadPool.cc.o:
+	cd /home/zhuyi/桌面/WorkSpace/fst-muduo/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/fst_muduo.dir/build.make src/CMakeFiles/fst_muduo.dir/EventLoopThreadPool.cc.o
+.PHONY : EventLoopThreadPool.cc.o
+
+EventLoopThreadPool.i: EventLoopThreadPool.cc.i
+.PHONY : EventLoopThreadPool.i
+
+# target to preprocess a source file
+EventLoopThreadPool.cc.i:
+	cd /home/zhuyi/桌面/WorkSpace/fst-muduo/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/fst_muduo.dir/build.make src/CMakeFiles/fst_muduo.dir/EventLoopThreadPool.cc.i
+.PHONY : EventLoopThreadPool.cc.i
+
+EventLoopThreadPool.s: EventLoopThreadPool.cc.s
+.PHONY : EventLoopThreadPool.s
+
+# target to generate assembly for a file
+EventLoopThreadPool.cc.s:
+	cd /home/zhuyi/桌面/WorkSpace/fst-muduo/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/fst_muduo.dir/build.make src/CMakeFiles/fst_muduo.dir/EventLoopThreadPool.cc.s
+.PHONY : EventLoopThreadPool.cc.s
+
 InetAddress.o: InetAddress.cc.o
 .PHONY : InetAddress.o
 
@@ -321,6 +393,30 @@ Poller.s: Poller.cc.s
 Poller.cc.s:
 	cd /home/zhuyi/桌面/WorkSpace/fst-muduo/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/fst_muduo.dir/build.make src/CMakeFiles/fst_muduo.dir/Poller.cc.s
 .PHONY : Poller.cc.s
+
+Socket.o: Socket.cc.o
+.PHONY : Socket.o
+
+# target to build an object file
+Socket.cc.o:
+	cd /home/zhuyi/桌面/WorkSpace/fst-muduo/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/fst_muduo.dir/build.make src/CMakeFiles/fst_muduo.dir/Socket.cc.o
+.PHONY : Socket.cc.o
+
+Socket.i: Socket.cc.i
+.PHONY : Socket.i
+
+# target to preprocess a source file
+Socket.cc.i:
+	cd /home/zhuyi/桌面/WorkSpace/fst-muduo/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/fst_muduo.dir/build.make src/CMakeFiles/fst_muduo.dir/Socket.cc.i
+.PHONY : Socket.cc.i
+
+Socket.s: Socket.cc.s
+.PHONY : Socket.s
+
+# target to generate assembly for a file
+Socket.cc.s:
+	cd /home/zhuyi/桌面/WorkSpace/fst-muduo/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/fst_muduo.dir/build.make src/CMakeFiles/fst_muduo.dir/Socket.cc.s
+.PHONY : Socket.cc.s
 
 TcpServer.o: TcpServer.cc.o
 .PHONY : TcpServer.o
@@ -403,6 +499,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... fst_muduo"
+	@echo "... Acceptor.o"
+	@echo "... Acceptor.i"
+	@echo "... Acceptor.s"
 	@echo "... Channel.o"
 	@echo "... Channel.i"
 	@echo "... Channel.s"
@@ -418,6 +517,12 @@ help:
 	@echo "... EventLoop.o"
 	@echo "... EventLoop.i"
 	@echo "... EventLoop.s"
+	@echo "... EventLoopThread.o"
+	@echo "... EventLoopThread.i"
+	@echo "... EventLoopThread.s"
+	@echo "... EventLoopThreadPool.o"
+	@echo "... EventLoopThreadPool.i"
+	@echo "... EventLoopThreadPool.s"
 	@echo "... InetAddress.o"
 	@echo "... InetAddress.i"
 	@echo "... InetAddress.s"
@@ -427,6 +532,9 @@ help:
 	@echo "... Poller.o"
 	@echo "... Poller.i"
 	@echo "... Poller.s"
+	@echo "... Socket.o"
+	@echo "... Socket.i"
+	@echo "... Socket.s"
 	@echo "... TcpServer.o"
 	@echo "... TcpServer.i"
 	@echo "... TcpServer.s"

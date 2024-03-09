@@ -1,6 +1,11 @@
 [
 {
   "directory": "/home/zhuyi/桌面/WorkSpace/fst-muduo/build/src",
+  "command": "clang++ -Dfst_muduo_EXPORTS -I/home/zhuyi/桌面/WorkSpace/fst-muduo/src/include -g -fPIC -o CMakeFiles/fst_muduo.dir/Acceptor.cc.o -c /home/zhuyi/桌面/WorkSpace/fst-muduo/src/Acceptor.cc",
+  "file": "/home/zhuyi/桌面/WorkSpace/fst-muduo/src/Acceptor.cc"
+},
+{
+  "directory": "/home/zhuyi/桌面/WorkSpace/fst-muduo/build/src",
   "command": "clang++ -Dfst_muduo_EXPORTS -I/home/zhuyi/桌面/WorkSpace/fst-muduo/src/include -g -fPIC -o CMakeFiles/fst_muduo.dir/Channel.cc.o -c /home/zhuyi/桌面/WorkSpace/fst-muduo/src/Channel.cc",
   "file": "/home/zhuyi/桌面/WorkSpace/fst-muduo/src/Channel.cc"
 },
@@ -26,6 +31,16 @@
 },
 {
   "directory": "/home/zhuyi/桌面/WorkSpace/fst-muduo/build/src",
+  "command": "clang++ -Dfst_muduo_EXPORTS -I/home/zhuyi/桌面/WorkSpace/fst-muduo/src/include -g -fPIC -o CMakeFiles/fst_muduo.dir/EventLoopThread.cc.o -c /home/zhuyi/桌面/WorkSpace/fst-muduo/src/EventLoopThread.cc",
+  "file": "/home/zhuyi/桌面/WorkSpace/fst-muduo/src/EventLoopThread.cc"
+},
+{
+  "directory": "/home/zhuyi/桌面/WorkSpace/fst-muduo/build/src",
+  "command": "clang++ -Dfst_muduo_EXPORTS -I/home/zhuyi/桌面/WorkSpace/fst-muduo/src/include -g -fPIC -o CMakeFiles/fst_muduo.dir/EventLoopThreadPool.cc.o -c /home/zhuyi/桌面/WorkSpace/fst-muduo/src/EventLoopThreadPool.cc",
+  "file": "/home/zhuyi/桌面/WorkSpace/fst-muduo/src/EventLoopThreadPool.cc"
+},
+{
+  "directory": "/home/zhuyi/桌面/WorkSpace/fst-muduo/build/src",
   "command": "clang++ -Dfst_muduo_EXPORTS -I/home/zhuyi/桌面/WorkSpace/fst-muduo/src/include -g -fPIC -o CMakeFiles/fst_muduo.dir/InetAddress.cc.o -c /home/zhuyi/桌面/WorkSpace/fst-muduo/src/InetAddress.cc",
   "file": "/home/zhuyi/桌面/WorkSpace/fst-muduo/src/InetAddress.cc"
 },
@@ -38,6 +53,11 @@
   "directory": "/home/zhuyi/桌面/WorkSpace/fst-muduo/build/src",
   "command": "clang++ -Dfst_muduo_EXPORTS -I/home/zhuyi/桌面/WorkSpace/fst-muduo/src/include -g -fPIC -o CMakeFiles/fst_muduo.dir/Poller.cc.o -c /home/zhuyi/桌面/WorkSpace/fst-muduo/src/Poller.cc",
   "file": "/home/zhuyi/桌面/WorkSpace/fst-muduo/src/Poller.cc"
+},
+{
+  "directory": "/home/zhuyi/桌面/WorkSpace/fst-muduo/build/src",
+  "command": "clang++ -Dfst_muduo_EXPORTS -I/home/zhuyi/桌面/WorkSpace/fst-muduo/src/include -g -fPIC -o CMakeFiles/fst_muduo.dir/Socket.cc.o -c /home/zhuyi/桌面/WorkSpace/fst-muduo/src/Socket.cc",
+  "file": "/home/zhuyi/桌面/WorkSpace/fst-muduo/src/Socket.cc"
 },
 {
   "directory": "/home/zhuyi/桌面/WorkSpace/fst-muduo/build/src",
