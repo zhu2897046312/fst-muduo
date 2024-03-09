@@ -155,6 +155,19 @@ InetAddress_test/fast:
 	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/InetAddress_test.dir/build.make test/CMakeFiles/InetAddress_test.dir/build
 .PHONY : InetAddress_test/fast
 
+#=============================================================================
+# Target rules for targets named Thread_test
+
+# Build rule for target.
+Thread_test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Thread_test
+.PHONY : Thread_test
+
+# fast build rule for target.
+Thread_test/fast:
+	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/Thread_test.dir/build.make test/CMakeFiles/Thread_test.dir/build
+.PHONY : Thread_test/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -164,6 +177,7 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... InetAddress_test"
+	@echo "... Thread_test"
 	@echo "... Timestamp_test"
 	@echo "... fst_muduo"
 .PHONY : help

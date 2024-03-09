@@ -144,6 +144,20 @@ InetAddress_test/fast:
 	cd /home/zhuyi/桌面/WorkSpace/fst-muduo/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/InetAddress_test.dir/build.make test/CMakeFiles/InetAddress_test.dir/build
 .PHONY : InetAddress_test/fast
 
+# Convenience name for target.
+test/CMakeFiles/Thread_test.dir/rule:
+	cd /home/zhuyi/桌面/WorkSpace/fst-muduo/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/CMakeFiles/Thread_test.dir/rule
+.PHONY : test/CMakeFiles/Thread_test.dir/rule
+
+# Convenience name for target.
+Thread_test: test/CMakeFiles/Thread_test.dir/rule
+.PHONY : Thread_test
+
+# fast build rule for target.
+Thread_test/fast:
+	cd /home/zhuyi/桌面/WorkSpace/fst-muduo/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Thread_test.dir/build.make test/CMakeFiles/Thread_test.dir/build
+.PHONY : Thread_test/fast
+
 InetAddress_test.o: InetAddress_test.cc.o
 .PHONY : InetAddress_test.o
 
@@ -167,6 +181,30 @@ InetAddress_test.s: InetAddress_test.cc.s
 InetAddress_test.cc.s:
 	cd /home/zhuyi/桌面/WorkSpace/fst-muduo/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/InetAddress_test.dir/build.make test/CMakeFiles/InetAddress_test.dir/InetAddress_test.cc.s
 .PHONY : InetAddress_test.cc.s
+
+Thread_test.o: Thread_test.cc.o
+.PHONY : Thread_test.o
+
+# target to build an object file
+Thread_test.cc.o:
+	cd /home/zhuyi/桌面/WorkSpace/fst-muduo/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Thread_test.dir/build.make test/CMakeFiles/Thread_test.dir/Thread_test.cc.o
+.PHONY : Thread_test.cc.o
+
+Thread_test.i: Thread_test.cc.i
+.PHONY : Thread_test.i
+
+# target to preprocess a source file
+Thread_test.cc.i:
+	cd /home/zhuyi/桌面/WorkSpace/fst-muduo/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Thread_test.dir/build.make test/CMakeFiles/Thread_test.dir/Thread_test.cc.i
+.PHONY : Thread_test.cc.i
+
+Thread_test.s: Thread_test.cc.s
+.PHONY : Thread_test.s
+
+# target to generate assembly for a file
+Thread_test.cc.s:
+	cd /home/zhuyi/桌面/WorkSpace/fst-muduo/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Thread_test.dir/build.make test/CMakeFiles/Thread_test.dir/Thread_test.cc.s
+.PHONY : Thread_test.cc.s
 
 Timestamp_test.o: Timestamp_test.cc.o
 .PHONY : Timestamp_test.o
@@ -201,10 +239,14 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... InetAddress_test"
+	@echo "... Thread_test"
 	@echo "... Timestamp_test"
 	@echo "... InetAddress_test.o"
 	@echo "... InetAddress_test.i"
 	@echo "... InetAddress_test.s"
+	@echo "... Thread_test.o"
+	@echo "... Thread_test.i"
+	@echo "... Thread_test.s"
 	@echo "... Timestamp_test.o"
 	@echo "... Timestamp_test.i"
 	@echo "... Timestamp_test.s"

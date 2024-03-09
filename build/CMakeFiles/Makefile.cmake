@@ -53,4 +53,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "src/CMakeFiles/fst_muduo.dir/DependInfo.cmake"
   "test/CMakeFiles/Timestamp_test.dir/DependInfo.cmake"
   "test/CMakeFiles/InetAddress_test.dir/DependInfo.cmake"
+  "test/CMakeFiles/Thread_test.dir/DependInfo.cmake"
   )

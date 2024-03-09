@@ -17,6 +17,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/zhuyi/桌面/WorkSpace/fst-muduo/src/Logger.cc" "src/CMakeFiles/fst_muduo.dir/Logger.cc.o" "gcc" "src/CMakeFiles/fst_muduo.dir/Logger.cc.o.d"
   "/home/zhuyi/桌面/WorkSpace/fst-muduo/src/Poller.cc" "src/CMakeFiles/fst_muduo.dir/Poller.cc.o" "gcc" "src/CMakeFiles/fst_muduo.dir/Poller.cc.o.d"
   "/home/zhuyi/桌面/WorkSpace/fst-muduo/src/TcpServer.cc" "src/CMakeFiles/fst_muduo.dir/TcpServer.cc.o" "gcc" "src/CMakeFiles/fst_muduo.dir/TcpServer.cc.o.d"
+  "/home/zhuyi/桌面/WorkSpace/fst-muduo/src/Thread.cc" "src/CMakeFiles/fst_muduo.dir/Thread.cc.o" "gcc" "src/CMakeFiles/fst_muduo.dir/Thread.cc.o.d"
   "/home/zhuyi/桌面/WorkSpace/fst-muduo/src/Timestamp.cc" "src/CMakeFiles/fst_muduo.dir/Timestamp.cc.o" "gcc" "src/CMakeFiles/fst_muduo.dir/Timestamp.cc.o.d"
   )
 
