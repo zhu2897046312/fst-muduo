@@ -6,6 +6,11 @@
 },
 {
   "directory": "/home/zhuyi/桌面/WorkSpace/fst-muduo/build/src",
+  "command": "clang++ -Dfst_muduo_EXPORTS -I/home/zhuyi/桌面/WorkSpace/fst-muduo/src/include -g -fPIC -o CMakeFiles/fst_muduo.dir/Buffer.cc.o -c /home/zhuyi/桌面/WorkSpace/fst-muduo/src/Buffer.cc",
+  "file": "/home/zhuyi/桌面/WorkSpace/fst-muduo/src/Buffer.cc"
+},
+{
+  "directory": "/home/zhuyi/桌面/WorkSpace/fst-muduo/build/src",
   "command": "clang++ -Dfst_muduo_EXPORTS -I/home/zhuyi/桌面/WorkSpace/fst-muduo/src/include -g -fPIC -o CMakeFiles/fst_muduo.dir/Channel.cc.o -c /home/zhuyi/桌面/WorkSpace/fst-muduo/src/Channel.cc",
   "file": "/home/zhuyi/桌面/WorkSpace/fst-muduo/src/Channel.cc"
 },
@@ -58,6 +63,11 @@
   "directory": "/home/zhuyi/桌面/WorkSpace/fst-muduo/build/src",
   "command": "clang++ -Dfst_muduo_EXPORTS -I/home/zhuyi/桌面/WorkSpace/fst-muduo/src/include -g -fPIC -o CMakeFiles/fst_muduo.dir/Socket.cc.o -c /home/zhuyi/桌面/WorkSpace/fst-muduo/src/Socket.cc",
   "file": "/home/zhuyi/桌面/WorkSpace/fst-muduo/src/Socket.cc"
+},
+{
+  "directory": "/home/zhuyi/桌面/WorkSpace/fst-muduo/build/src",
+  "command": "clang++ -Dfst_muduo_EXPORTS -I/home/zhuyi/桌面/WorkSpace/fst-muduo/src/include -g -fPIC -o CMakeFiles/fst_muduo.dir/TcpConnection.cc.o -c /home/zhuyi/桌面/WorkSpace/fst-muduo/src/TcpConnection.cc",
+  "file": "/home/zhuyi/桌面/WorkSpace/fst-muduo/src/TcpConnection.cc"
 },
 {
   "directory": "/home/zhuyi/桌面/WorkSpace/fst-muduo/build/src",

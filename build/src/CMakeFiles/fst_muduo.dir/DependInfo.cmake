@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/zhuyi/桌面/WorkSpace/fst-muduo/src/Acceptor.cc" "src/CMakeFiles/fst_muduo.dir/Acceptor.cc.o" "gcc" "src/CMakeFiles/fst_muduo.dir/Acceptor.cc.o.d"
+  "/home/zhuyi/桌面/WorkSpace/fst-muduo/src/Buffer.cc" "src/CMakeFiles/fst_muduo.dir/Buffer.cc.o" "gcc" "src/CMakeFiles/fst_muduo.dir/Buffer.cc.o.d"
   "/home/zhuyi/桌面/WorkSpace/fst-muduo/src/Channel.cc" "src/CMakeFiles/fst_muduo.dir/Channel.cc.o" "gcc" "src/CMakeFiles/fst_muduo.dir/Channel.cc.o.d"
   "/home/zhuyi/桌面/WorkSpace/fst-muduo/src/CurrentThread.cc" "src/CMakeFiles/fst_muduo.dir/CurrentThread.cc.o" "gcc" "src/CMakeFiles/fst_muduo.dir/CurrentThread.cc.o.d"
   "/home/zhuyi/桌面/WorkSpace/fst-muduo/src/Default.cc" "src/CMakeFiles/fst_muduo.dir/Default.cc.o" "gcc" "src/CMakeFiles/fst_muduo.dir/Default.cc.o.d"
@@ -20,6 +21,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/zhuyi/桌面/WorkSpace/fst-muduo/src/Logger.cc" "src/CMakeFiles/fst_muduo.dir/Logger.cc.o" "gcc" "src/CMakeFiles/fst_muduo.dir/Logger.cc.o.d"
   "/home/zhuyi/桌面/WorkSpace/fst-muduo/src/Poller.cc" "src/CMakeFiles/fst_muduo.dir/Poller.cc.o" "gcc" "src/CMakeFiles/fst_muduo.dir/Poller.cc.o.d"
   "/home/zhuyi/桌面/WorkSpace/fst-muduo/src/Socket.cc" "src/CMakeFiles/fst_muduo.dir/Socket.cc.o" "gcc" "src/CMakeFiles/fst_muduo.dir/Socket.cc.o.d"
+  "/home/zhuyi/桌面/WorkSpace/fst-muduo/src/TcpConnection.cc" "src/CMakeFiles/fst_muduo.dir/TcpConnection.cc.o" "gcc" "src/CMakeFiles/fst_muduo.dir/TcpConnection.cc.o.d"
   "/home/zhuyi/桌面/WorkSpace/fst-muduo/src/TcpServer.cc" "src/CMakeFiles/fst_muduo.dir/TcpServer.cc.o" "gcc" "src/CMakeFiles/fst_muduo.dir/TcpServer.cc.o.d"
   "/home/zhuyi/桌面/WorkSpace/fst-muduo/src/Thread.cc" "src/CMakeFiles/fst_muduo.dir/Thread.cc.o" "gcc" "src/CMakeFiles/fst_muduo.dir/Thread.cc.o.d"
   "/home/zhuyi/桌面/WorkSpace/fst-muduo/src/Timestamp.cc" "src/CMakeFiles/fst_muduo.dir/Timestamp.cc.o" "gcc" "src/CMakeFiles/fst_muduo.dir/Timestamp.cc.o.d"
