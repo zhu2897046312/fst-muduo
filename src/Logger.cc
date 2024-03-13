@@ -1,5 +1,7 @@
 #include "Logger.h"
 
+#include "Timestamp.h"
+
 #include <iostream>
 
 namespace fst {
@@ -31,7 +33,7 @@ void Logger::log(std::string msg){
         break;
     }
 
-    std::cout << "print time" << " : " << msg << std::endl;
+    std::cout << Timestamp::now().toString() << " : " << msg << std::endl;
 }
 
 }

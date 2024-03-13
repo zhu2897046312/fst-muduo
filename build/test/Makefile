@@ -158,6 +158,20 @@ Thread_test/fast:
 	cd /home/zhuyi/桌面/WorkSpace/fst-muduo/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Thread_test.dir/build.make test/CMakeFiles/Thread_test.dir/build
 .PHONY : Thread_test/fast
 
+# Convenience name for target.
+test/CMakeFiles/Final_test.dir/rule:
+	cd /home/zhuyi/桌面/WorkSpace/fst-muduo/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/CMakeFiles/Final_test.dir/rule
+.PHONY : test/CMakeFiles/Final_test.dir/rule
+
+# Convenience name for target.
+Final_test: test/CMakeFiles/Final_test.dir/rule
+.PHONY : Final_test
+
+# fast build rule for target.
+Final_test/fast:
+	cd /home/zhuyi/桌面/WorkSpace/fst-muduo/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Final_test.dir/build.make test/CMakeFiles/Final_test.dir/build
+.PHONY : Final_test/fast
+
 InetAddress_test.o: InetAddress_test.cc.o
 .PHONY : InetAddress_test.o
 
@@ -230,6 +244,30 @@ Timestamp_test.cc.s:
 	cd /home/zhuyi/桌面/WorkSpace/fst-muduo/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Timestamp_test.dir/build.make test/CMakeFiles/Timestamp_test.dir/Timestamp_test.cc.s
 .PHONY : Timestamp_test.cc.s
 
+finall_test.o: finall_test.cc.o
+.PHONY : finall_test.o
+
+# target to build an object file
+finall_test.cc.o:
+	cd /home/zhuyi/桌面/WorkSpace/fst-muduo/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Final_test.dir/build.make test/CMakeFiles/Final_test.dir/finall_test.cc.o
+.PHONY : finall_test.cc.o
+
+finall_test.i: finall_test.cc.i
+.PHONY : finall_test.i
+
+# target to preprocess a source file
+finall_test.cc.i:
+	cd /home/zhuyi/桌面/WorkSpace/fst-muduo/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Final_test.dir/build.make test/CMakeFiles/Final_test.dir/finall_test.cc.i
+.PHONY : finall_test.cc.i
+
+finall_test.s: finall_test.cc.s
+.PHONY : finall_test.s
+
+# target to generate assembly for a file
+finall_test.cc.s:
+	cd /home/zhuyi/桌面/WorkSpace/fst-muduo/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Final_test.dir/build.make test/CMakeFiles/Final_test.dir/finall_test.cc.s
+.PHONY : finall_test.cc.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -238,6 +276,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... Final_test"
 	@echo "... InetAddress_test"
 	@echo "... Thread_test"
 	@echo "... Timestamp_test"
@@ -250,6 +289,9 @@ help:
 	@echo "... Timestamp_test.o"
 	@echo "... Timestamp_test.i"
 	@echo "... Timestamp_test.s"
+	@echo "... finall_test.o"
+	@echo "... finall_test.i"
+	@echo "... finall_test.s"
 .PHONY : help
 
 

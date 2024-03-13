@@ -168,6 +168,19 @@ Thread_test/fast:
 	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/Thread_test.dir/build.make test/CMakeFiles/Thread_test.dir/build
 .PHONY : Thread_test/fast
 
+#=============================================================================
+# Target rules for targets named Final_test
+
+# Build rule for target.
+Final_test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Final_test
+.PHONY : Final_test
+
+# fast build rule for target.
+Final_test/fast:
+	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/Final_test.dir/build.make test/CMakeFiles/Final_test.dir/build
+.PHONY : Final_test/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -176,6 +189,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... Final_test"
 	@echo "... InetAddress_test"
 	@echo "... Thread_test"
 	@echo "... Timestamp_test"

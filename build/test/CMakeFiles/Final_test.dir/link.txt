@@ -1,0 +1,1 @@
+clang++ -g -rdynamic CMakeFiles/Final_test.dir/finall_test.cc.o -o ../../bin/Final_test  -Wl,-rpath,/home/zhuyi/桌面/WorkSpace/fst-muduo/lib ../../lib/libfst_muduo.so 

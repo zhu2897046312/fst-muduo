@@ -3,7 +3,6 @@
 #include "Timestamp.h"
 #include "EventLoop.h"
 #include "noncopyable.h"
-#include <algorithm>
 #include <functional>
 #include <memory>
 namespace fst {
@@ -16,6 +15,15 @@ class EventLoop;
  * 重点理清楚: EventLoop \ Channel \ Poller 之间的关系  <=== Reactot模型上对应的关系 Demultiplex事件分发器
  *                      
  */
+
+/**
+    Channel封装
+    1. fd events revents callback
+    2. 事件处理(执行回调)   从epoll_wait()中唤醒 执行回调
+    3. 设置fd回调           -- 都是与fd有关的操作 如：读写事件、fd的关闭事件
+    4. 设置事件状态         epoll_ctl
+    5. 返回当前事件状态
+*/
 
 class Channel : nonccopyable
 {
@@ -85,6 +93,8 @@ private:
     EventCallBack closeCallBack_;
     EventCallBack errorCallBack_;
 };
+
+
 
 
 }

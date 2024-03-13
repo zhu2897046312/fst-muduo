@@ -17,7 +17,13 @@ namespace fst {
 
 class Channel;
 class Poller;
+/**
+    Reactor
+    1. 事件循环开启和关闭
+    2. channel->fd() 上有事件发生 从epoll_wait()返回 执行对应的fd读写、关闭操作
+    3. event_fd上有写事件发生 通过此操作来唤醒被阻塞的线程 执行相应的回调操作
 
+*/
 class EventLoop : nonccopyable
 {
 public:
@@ -68,7 +74,7 @@ private:
     Channel* currentActiveChannel_; 
 
     std::atomic_bool callingPendingFunctors_;    //标识当前loop是否需要执行回调操作
-    std::vector<Func> pedingFunctors_;            //loop需要进行的所有回调操作
+    std::vector<Func> pedingFunctors_;   //线程回调         //loop需要进行的所有回调操作- -- 该loop对应线程要做的事情（线程回调）
     std::mutex mutex_;
 };
 

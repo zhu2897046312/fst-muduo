@@ -98,5 +98,10 @@
   "directory": "/home/zhuyi/桌面/WorkSpace/fst-muduo/build/test",
   "command": "clang++  -I/home/zhuyi/桌面/WorkSpace/fst-muduo/src/include -g -o CMakeFiles/Thread_test.dir/Thread_test.cc.o -c /home/zhuyi/桌面/WorkSpace/fst-muduo/test/Thread_test.cc",
   "file": "/home/zhuyi/桌面/WorkSpace/fst-muduo/test/Thread_test.cc"
+},
+{
+  "directory": "/home/zhuyi/桌面/WorkSpace/fst-muduo/build/test",
+  "command": "clang++  -I/home/zhuyi/桌面/WorkSpace/fst-muduo/src/include -g -o CMakeFiles/Final_test.dir/finall_test.cc.o -c /home/zhuyi/桌面/WorkSpace/fst-muduo/test/finall_test.cc",
+  "file": "/home/zhuyi/桌面/WorkSpace/fst-muduo/test/finall_test.cc"
 }
 ]

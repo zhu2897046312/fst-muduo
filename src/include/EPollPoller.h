@@ -12,6 +12,12 @@ namespace fst {
  * epoll_ctl
  * epoll_wait
  */
+/**
+    epoll封装       --- Demultiplex 事件分发器
+    1. ChannelMap(监听事件) event_fd(epoll操作句柄) epoll_event(就绪事件--触发事件监听的事件)  
+    2. 监听事件的增删改
+    3. 返回就绪事件
+*/
 class EPollPoller : public Poller
 {
 public:
@@ -35,7 +41,7 @@ private:
     int epoll_fd_;      // eopll 句柄
     EventList events_;  //就绪事件
 
-    static const int kInitEventListSize = 16;
+    static const int kInitEventListSize = 16;//就绪事件默认大小
 };
 
 }

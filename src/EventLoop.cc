@@ -45,10 +45,10 @@ EventLoop::EventLoop()
     }else{
         t_loopInThisThread = this;
     }
-    //
+    //设置wakeupfd感兴趣的事件和回调操作
     wakeUpChannel_->setReadCallBack(std::bind(&EventLoop::handleRead,this));
-
-    wakeUpChannel_->enableReading();
+    //每一个eventloop都将监听wakeup的EPOLLIN事件    
+    wakeUpChannel_->enableReading();    //设置监听事件
 }
 
 EventLoop::~EventLoop(){
@@ -57,7 +57,7 @@ EventLoop::~EventLoop(){
     ::close(wakeUpFd_);
     t_loopInThisThread = nullptr;
 }
-
+//wakeUpFd_ 写了数据 为了唤醒subloop 再读一下数据
 void EventLoop::handleRead(){
     uint64_t one = 1;
     ssize_t n = read(wakeUpFd_, &one, sizeof(one));
@@ -76,10 +76,17 @@ void EventLoop::loop(){
     while (!quit_) {
         activeChannels_.clear();
         pollReturnTime_ = poller_->poll(kPollTimeMs,&activeChannels_);
+        //具体发生事件,执行回调
         for(Channel * channel : activeChannels_){
             channel->handleEvent(pollReturnTime_);
         }
-        doPendingFunctors();
+        //执行当前Eventloop事件循环需要处理的回调操作
+        /**
+         IO线程 -- mainLoop 做accept接受新用户的连接 以连接用户需要分发给subLoop 
+
+         wakeup 后需要执行的方法(wait出来后要干嘛！接收、发送数据等)
+        */
+        doPendingFunctors();    //做用户提交的任务
     }
 
     LOG_INFO("EventLoop %p stop looping \n",this);
@@ -110,7 +117,7 @@ void EventLoop::queueInLoop(Func cb){
            
     }
     if(!isInLoopThread() || callingPendingFunctors_){
-        wakeUp();
+        wakeUp();   //唤醒loop所在线程  -- 从epoll_wait() 出来
     }
 }
 //唤醒loop所在线程

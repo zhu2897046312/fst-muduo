@@ -137,6 +137,7 @@ src/CMakeFiles/fst_muduo.dir/Logger.cc.o: \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/functional_hash.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/hash_bytes.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/basic_string.tcc \
+  /home/zhuyi/桌面/WorkSpace/fst-muduo/src/include/Timestamp.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/iostream \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/ostream \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/ios \

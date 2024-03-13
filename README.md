@@ -16,7 +16,7 @@ Channel: 表示一个文件描述符和对应事件的关系,与特定的文件�
         (1) 设置fd相应的事件状态 enableReading() disableReading() enableWriting() disableWriting() disableAll() 
         (2) fd得到Poller通知后,处理事件回调 handleEvent()
 
-EpollPoller: 使用 epoll 系统调用来监听文件描述符上的事件，当事件就绪时，EpollPoller 会通知相应的 Channel
+EpollPoller: 使用 epoll 系统调用来监听文件描述符上的事件，当事件就绪时，EpollPoller 会通知相应的 Channel    
     1.  封装了 ChannelMap (key:fd value:Channel*)
     2.  提供了方法 
         (1) 设置监听channel - fd 

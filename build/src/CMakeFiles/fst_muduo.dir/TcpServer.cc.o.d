@@ -196,11 +196,6 @@ src/CMakeFiles/fst_muduo.dir/TcpServer.cc.o: \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/stdexcept \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/std_mutex.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/unique_lock.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/algorithm \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/stl_algo.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/algorithmfwd.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/stl_heap.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/uniform_int_dist.h \
   /home/zhuyi/桌面/WorkSpace/fst-muduo/src/include/InetAddress.h \
   /usr/include/netinet/in.h /usr/include/x86_64-linux-gnu/sys/socket.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_iovec.h \
@@ -231,6 +226,11 @@ src/CMakeFiles/fst_muduo.dir/TcpServer.cc.o: \
   /usr/include/x86_64-linux-gnu/bits/eventfd.h \
   /home/zhuyi/桌面/WorkSpace/fst-muduo/src/include/CallBack.h \
   /home/zhuyi/桌面/WorkSpace/fst-muduo/src/include/Buffer.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/algorithm \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/stl_algo.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/algorithmfwd.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/stl_heap.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/uniform_int_dist.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/cstddef \
   /usr/include/x86_64-linux-gnu/sys/uio.h \
   /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
