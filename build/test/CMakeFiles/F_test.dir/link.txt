@@ -1,1 +1,0 @@
-clang++ -g -rdynamic CMakeFiles/F_test.dir/Thread_test.cc.o -o ../../bin/F_test 
